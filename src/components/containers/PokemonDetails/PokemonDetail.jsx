@@ -118,7 +118,6 @@ const PokemonDetail = ({ link }) => {
                   {pokemon?.types.map((pokemonTypes) => {
                     return (
                       <h5 key={pokemonTypes.type.name}>
-                        {" "}
                         {pokemonTypes.type.name}
                       </h5>
                     );
