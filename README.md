@@ -9,7 +9,7 @@
 
   2. Clone this repository into your machine.
 
-   3.Run *npm install* to install the packages needed to run the application.
+  3. Run *npm install* to install the packages needed to run the application.
 
   4. Run *npm start*.
 
