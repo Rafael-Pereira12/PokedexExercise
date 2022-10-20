@@ -17,11 +17,15 @@ const PokemonDetail = ({ link }) => {
 
   let favoritesArray = JSON.parse(localStorage.getItem("favorites"));
 
+  //requests the Pokemon Info to the API using the input parameter the component receives and then
+  //sets the response to the pokemon variable declared as a useState
   const fetchPokemonDetails = async () => {
     const result = await axios.get(link);
     setPokemon(result.data);
   };
 
+  //receives a boolean variable as input, if true adds the pokemon to the favorites local storage array
+  //if false, removes the pokemon from the array. The fuction is also responsible for changing the favorites icon
   function handleFavorites(addToFavorite) {
     if (addToFavorite === true) {
       favoritesArray.push(pokemon);
@@ -35,6 +39,8 @@ const PokemonDetail = ({ link }) => {
     localStorage.setItem("favorites", JSON.stringify(favoritesArray));
   }
 
+  //when the page loads, the favoritesArrays is iterated in search for the pokemon id in the favorites
+  //if it is so, it sets the favorites icon to filled (pokemon is favorite)
   useEffect(() => {
     if (pokemon) {
       setVisible(favoritesArray.some((favorite) => favorite.id === pokemon.id));

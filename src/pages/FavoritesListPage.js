@@ -8,6 +8,8 @@ const FavoritesListPage = () => {
   const [favorites, setFavorites] = useState([]);
   const getFavorites = JSON.parse(localStorage.getItem("favorites"));
 
+  //it takes the array values stored by getFavorites and it set a new array(favorites) but
+  //sorts the array by id before setting the values in the new array
   const sortFavorites = () => {
     setFavorites(getFavorites.sort((a, b) => (a.id > b.id ? 1 : -1)));
   };
