@@ -1,9 +1,9 @@
-#Pokedex 
+##Pokedex 
 
   An application that is a Pokedex, used to consult the existent Pokemons and details of each one of them. 
   Built with React.JS and CSS.
 
-#Installation and Setup Instructions
+##Installation and Setup Instructions
 
   1. Install Node.JS and npm on your machine if you don't already have it installed.
 
@@ -15,7 +15,7 @@
 
   5. On your browser go to **localhost:3000** to visit the application
 
-#Frameworks, Libraries and Toolkits
+##Frameworks, Libraries and Toolkits
 
   - Bootstrap
   - Styled-components
