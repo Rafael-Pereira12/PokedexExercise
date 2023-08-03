@@ -5,7 +5,7 @@
 
 ## Installation and Setup Instructions
 
-  1. Install Node.JS and npm on your machine if you don't already have it installed.
+  1. Install Node.JS on your machine if you don't already have it installed.
 
   2. Clone this repository into your machine.
 
