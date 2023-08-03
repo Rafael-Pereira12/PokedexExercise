@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 export const _Background = styled.section`
-  position: absolute;
+  position: fixed;
   z-index: -1;
+  width: 100%;
 
   img {
-    width: 99vw;
+    width: 100%;
   }
 
   @media screen and (max-width: 912px) {

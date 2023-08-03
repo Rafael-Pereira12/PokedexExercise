@@ -4,7 +4,7 @@ export const _Wrapper = styled.section`
   display: grid;
   grid-template-columns: 2fr 2fr;
   justify-items: center;
-  align-items: center;
+  align-items: baseline;
   grid-row-gap: 10px;
   text-decoration: none;
   margin-bottom: 2rem;

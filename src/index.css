@@ -1,10 +1,7 @@
 body {
-  margin: 0;
   height: 100vh;
-  width: 99vw;
-    min-height: 1050px;
-    min-width: 1050px;
-    background-color: #d01e36 !important;
+  margin-bottom: 5rem !important;
+   background-color: #d01e36 !important;
 }
 
 * {
